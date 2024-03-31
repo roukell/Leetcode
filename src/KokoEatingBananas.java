@@ -63,9 +63,9 @@ public class KokoEatingBananas {
         return left;
     }
 
-    public static void main(String[] args) {
-        int[] piles = new int[]{30,11,23,4,20};
-        int h = 5;
-        System.out.println(minEatingSpeed(piles, h));
-    }
+//    public static void main(String[] args) {
+//        int[] piles = new int[]{30,11,23,4,20};
+//        int h = 5;
+//        System.out.println(minEatingSpeed(piles, h));
+//    }
 }
