@@ -43,9 +43,10 @@ public class ProductOfArrayExceptSelf {
         return output;
     }
 
+    // test case
 //    public static void main(String[] args)
 //    {
-//        int[] nums1 = new int[]{1,2,3,4};
+//        int[] nums1 = {1,2,3,4};
 //        System.out.println(Arrays.toString(productExceptSelf(nums1)));
 //    }
 }

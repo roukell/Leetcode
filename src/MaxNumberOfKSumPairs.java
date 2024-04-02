@@ -44,7 +44,7 @@ public class MaxNumberOfKSumPairs {
 
     //    test case
 //    public static void main(String[] args) {
-//        int[] nums = new int[]{4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4};
+//        int[] nums = {4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4};
 //        int k = 2;
 //        System.out.println(maxOperations(nums, k));
 //    }
