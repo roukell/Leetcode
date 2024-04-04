@@ -10,6 +10,9 @@ public class PalindromeNumber {
         return y.equals(i);
     }
 
+    // Time: O(log10(N))
+    // N = int x
+    // Space: O(1)
     public static boolean isPalindrome2(int x) {
         // negative number cannot be palindrome
         // numbers end with 0 cannot be palindrome
