@@ -10,8 +10,27 @@ public class PalindromeNumber {
         return y.equals(i);
     }
 
+    public static boolean isPalindrome2(int x) {
+        // negative number cannot be palindrome
+        // numbers end with 0 cannot be palindrome
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int revertedNumber = 0;
+        while (x > revertedNumber) {
+            // append the last digit of x
+            revertedNumber = revertedNumber * 10 + x % 10;
+
+            // change the last digit of x
+            x /= 10;
+        }
+
+        return x == revertedNumber || x == revertedNumber/10;
+    }
+
 //    public static void main(String[] args) {
-//        int num = 12111;
-//        System.out.println(isPalindrome(num));
+//        int num = 1221;
+//        System.out.println(isPalindrome2(num));
 //    }
 }
